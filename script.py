@@ -1,5 +1,6 @@
-from names import Firstname
+from names import Name
 
-L = Firstname("Lennon")
+L = Name(raw_input("Who goes there?"))
 
+print L
 print L.text
